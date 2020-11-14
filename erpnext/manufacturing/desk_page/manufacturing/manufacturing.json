@@ -31,7 +31,7 @@
    "links": "[\n    {\n        \"label\": \"Work Order\",\n        \"name\": \"Work Order\",\n        \"type\": \"help\",\n        \"youtube_id\": \"ZotgLyp2YFY\"\n    }\n]"
   }
  ],
- "category": "Domains",
+ "category": "Modules",
  "charts": [
   {
    "chart_name": "Produced Quantity"
@@ -47,7 +47,7 @@
  "idx": 0,
  "is_standard": 1,
  "label": "Manufacturing",
- "modified": "2020-05-28 13:54:02.048419",
+ "modified": "2020-09-30 17:09:32.543612",
  "modified_by": "Administrator",
  "module": "Manufacturing",
  "name": "Manufacturing",
@@ -115,10 +115,10 @@
    "type": "Report"
   },
   {
-    "label": "Dashboard",
-    "link_to": "Manufacturing",
-    "restrict_to_domain": "Manufacturing",
-    "type": "Dashboard"
-   } 
+   "label": "Dashboard",
+   "link_to": "Manufacturing",
+   "restrict_to_domain": "Manufacturing",
+   "type": "Dashboard"
+  }
  ]
 }

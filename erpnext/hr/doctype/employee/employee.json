@@ -135,7 +135,7 @@
    "no_copy": 1,
    "oldfieldname": "naming_series",
    "oldfieldtype": "Select",
-   "options": "HR-EMP-",
+   "options": "1089\n1090\n1091\n1092\n1093\n1094\n1095",
    "set_only_once": 1
   },
   {
@@ -804,17 +804,15 @@
    "fieldname": "expense_approver",
    "fieldtype": "Link",
    "label": "Expense Approver",
-   "options": "User",
-   "show_days": 1,
-   "show_seconds": 1
+   "options": "User"
   }
  ],
  "icon": "fa fa-user",
  "idx": 24,
  "image_field": "image",
  "links": [],
- "modified": "2020-06-18 18:01:27.223535",
- "modified_by": "Administrator",
+ "modified": "2020-10-10 15:13:16.909412",
+ "modified_by": "kartika.s@groupteampro.com",
  "module": "HR",
  "name": "Employee",
  "name_case": "Title Case",

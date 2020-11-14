@@ -125,6 +125,9 @@ class Project(Document):
 		if self.percent_complete == 100:
 			self.status = "Completed"
 
+		if self.status == "Hold":
+			self.status = "Hold"
+
 		else:
 			self.status = "Open"
 

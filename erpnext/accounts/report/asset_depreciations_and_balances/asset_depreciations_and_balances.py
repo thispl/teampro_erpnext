@@ -15,7 +15,7 @@ def execute(filters=None):
 
 def get_data(filters):
 	data = []
-
+	currency = {'currency': frappe.get_cached_value('Company',filters.company, "default_currency")}
 	asset_categories = get_asset_categories(filters)
 	assets = get_assets(filters)
 
@@ -23,6 +23,7 @@ def get_data(filters):
 		row = frappe._dict()
 		# row.asset_category = asset_category
 		row.update(asset_category)
+		row.update(currency)
 
 		row.cost_as_on_to_date = (flt(row.cost_as_on_from_date) + flt(row.cost_of_new_purchase) -
 				flt(row.cost_of_sold_asset) - flt(row.cost_of_scrapped_asset))
@@ -134,13 +135,20 @@ def get_assets(filters):
 
 
 def get_columns(filters):
+	
 	return [
 		{
 			"label": _("Asset Category"),
 			"fieldname": "asset_category",
 			"fieldtype": "Link",
 			"options": "Asset Category",
-			"width": 120
+			"width": 150
+		},
+		{
+			"label": _("Currency"),
+			"fieldname": "currency",
+			"fieldtype": "Data",
+			"width": 80
 		},
 		{
 			"label": _("Cost as on") + " " + formatdate(filters.day_before_from_date),

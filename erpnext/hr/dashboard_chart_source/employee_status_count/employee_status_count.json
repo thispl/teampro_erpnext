@@ -1,0 +1,13 @@
+{
+ "creation": "2020-08-13 17:55:43.847428",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart Source",
+ "idx": 0,
+ "modified": "2020-08-13 17:55:43.847428",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "Employee Status Count",
+ "owner": "Administrator",
+ "source_name": "Employee Status Count",
+ "timeseries": 0
+}

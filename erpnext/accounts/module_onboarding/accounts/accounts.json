@@ -13,8 +13,8 @@
  "documentation_url": "https://docs.erpnext.com/docs/user/manual/en/accounts",
  "idx": 0,
  "is_complete": 0,
- "modified": "2020-05-14 22:11:06.475938",
- "modified_by": "Administrator",
+ "modified": "2020-08-31 12:55:36.305702",
+ "modified_by": "dineshbabu.k@groupteampro.com",
  "module": "Accounts",
  "name": "Accounts",
  "owner": "Administrator",
@@ -46,6 +46,5 @@
  ],
  "subtitle": "Accounts, invoices and taxation.",
  "success_message": "The Accounts module is now set up!",
- "title": "Let's Setup Your Accounts and Taxes.",
- "user_can_dismiss": 1
+ "title": "Let's Setup Your Accounts and Taxes."
 }

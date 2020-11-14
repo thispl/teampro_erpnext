@@ -86,6 +86,7 @@
    "label": "Is Carry Forward"
   },
   {
+   "allow_on_submit": 1,
    "default": "0",
    "fieldname": "is_expired",
    "fieldtype": "Check",
@@ -111,7 +112,7 @@
  "in_create": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2020-02-27 14:40:10.502605",
+ "modified": "2020-09-05 12:16:32.522657",
  "modified_by": "Administrator",
  "module": "HR",
  "name": "Leave Ledger Entry",
